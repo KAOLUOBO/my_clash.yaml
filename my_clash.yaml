@@ -226,7 +226,7 @@ parsers: # array
         # - RULE-SET,netflix,Netflix
         - RULE-SET,icloud,DIRECT #
         - RULE-SET,apple,DIRECT # 这三个为国内可直连地址，如果希望走代理改为PROXY
-        - RULE-SET,google,DIRECT #
+        - RULE-SET,google,PROXY #
         - RULE-SET,tld-not-cn,PROXY
         - RULE-SET,gfw,PROXY
         - RULE-SET,greatfire,PROXY
